@@ -1,0 +1,59 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <ui:Style src="GlobalStyle.uss" />
+    <ui:Style src="ArOverlay.uss" />
+
+    <ui:VisualElement class="recovery-screen">
+        <ui:VisualElement class="recovery-top-bar">
+            <ui:VisualElement class="recovery-menu-icon" />
+            <ui:Label text="NavAR" class="recovery-brand-text" />
+        </ui:VisualElement>
+
+        <ui:ScrollView class="recovery-scroll">
+            <ui:VisualElement class="recovery-content">
+                <ui:VisualElement class="recovery-icon-circle">
+                    <ui:VisualElement class="recovery-icon" />
+                </ui:VisualElement>
+
+                <ui:Label text="Position Lost" class="recovery-title" />
+                <ui:Label text="We've lost track of your precise location in the environment. Please follow these steps to recalibrate." class="recovery-desc" />
+
+                <ui:VisualElement class="recovery-step-card">
+                    <ui:VisualElement class="recovery-step-head">
+                        <ui:Label text="STEP 01" class="recovery-step-index" />
+                        <ui:VisualElement class="recovery-step-icon" />
+                    </ui:VisualElement>
+                    <ui:Label text="Find a QR Code" class="recovery-step-title" />
+                    <ui:Label text="Look for the nearest navigation anchor sticker on a wall or floor pillar." class="recovery-step-body" />
+                </ui:VisualElement>
+
+                <ui:VisualElement class="recovery-step-card">
+                    <ui:VisualElement class="recovery-step-head">
+                        <ui:Label text="STEP 02" class="recovery-step-index" />
+                        <ui:VisualElement class="recovery-step-icon" />
+                    </ui:VisualElement>
+                    <ui:Label text="Scan the Code" class="recovery-step-title" />
+                    <ui:Label text="Point your camera directly at the code until it registers on screen." class="recovery-step-body" />
+                    <ui:Button name="BtnScanRecovery" text="Scan QR" class="recovery-step-btn" />
+                </ui:VisualElement>
+
+                <ui:VisualElement class="recovery-step-card">
+                    <ui:VisualElement class="recovery-step-head">
+                        <ui:Label text="STEP 03" class="recovery-step-index" />
+                        <ui:VisualElement class="recovery-step-icon" />
+                    </ui:VisualElement>
+                    <ui:Label text="Resume Navigation" class="recovery-step-title" />
+                    <ui:Button name="BtnResumeNavigation" text="Resume" class="recovery-step-btn" />
+                    <ui:Button name="BtnCancelRecovery" text="Cancel Navigation" class="recovery-cancel-btn" />
+                </ui:VisualElement>
+
+                <ui:VisualElement class="recovery-tip">
+                    <ui:VisualElement class="recovery-tip-icon" />
+                    <ui:VisualElement class="recovery-tip-copy">
+                        <ui:Label text="PRO TIP" class="recovery-tip-title" />
+                        <ui:Label text="Keep the camera steady for 2 seconds." class="recovery-tip-text" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

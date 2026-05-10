@@ -1,0 +1,49 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <ui:Style src="GlobalStyle.uss" />
+    <ui:Style src="PermissionScreen.uss" />
+
+    <ui:VisualElement class="permission-screen">
+        <ui:VisualElement class="permission-top-bar">
+            <ui:Button name="BtnPermissionBack" text="&#x2190;" class="permission-back" />
+            <ui:Label text="NavAR" class="permission-brand" />
+            <ui:VisualElement class="permission-send-icon" />
+        </ui:VisualElement>
+
+        <ui:ScrollView class="permission-scroll">
+            <ui:VisualElement class="permission-container">
+                <ui:VisualElement class="permission-icon-circle">
+                    <ui:VisualElement class="permission-icon-core" />
+                    <ui:VisualElement class="permission-floating permission-floating-left" />
+                    <ui:VisualElement class="permission-floating permission-floating-right" />
+                </ui:VisualElement>
+
+                <ui:Label text="Enable Camera for AR" class="permission-title" />
+                <ui:Label text="Camera access is essential for real-time indoor navigation overlays. We use the lens to scan your surroundings and place digital waypoints directly in your path." class="permission-desc" />
+
+                <ui:Button text="ALLOW CAMERA" name="AllowButton" class="btn-primary" />
+                <ui:Button text="Not Now" name="CancelButton" class="btn-secondary" />
+
+                <ui:Label text="Your camera feed is processed locally and is never stored on our servers." class="permission-footnote" />
+
+                <ui:VisualElement class="permission-tip-card">
+                    <ui:VisualElement class="permission-tip-icon" />
+                    <ui:Label text="Pro tip: Hold your phone upright for the most accurate spatial tracking." class="permission-tip-text" />
+                </ui:VisualElement>
+
+                <ui:VisualElement class="permission-feature-grid">
+                    <ui:VisualElement class="permission-feature-card">
+                        <ui:VisualElement class="permission-feature-icon" />
+                        <ui:Label text="NAVIGATION" class="permission-feature-title" />
+                        <ui:Label text="Pinpoint Pathing" class="permission-feature-desc" />
+                    </ui:VisualElement>
+
+                    <ui:VisualElement class="permission-feature-card">
+                        <ui:VisualElement class="permission-feature-icon permission-feature-icon-alt" />
+                        <ui:Label text="SPATIAL" class="permission-feature-title" />
+                        <ui:Label text="Precise Positioning" class="permission-feature-desc" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,109 @@
+/* Core Screen Container - Ensures every screen takes up the full phone display */
+.screen-container {
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+/* NavAR Typography & Colors */
+.text-brand-dark {
+    color: rgb(4, 30, 66); /* The dark navy from the PDF */
+}
+
+.text-gray-light {
+    color: rgb(150, 150, 150);
+}
+
+/* Layout Wrapper */
+.main-layout {
+    flex-grow: 1;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.content-container {
+    flex-grow: 1;
+    width: 100%;
+    min-height: 0;
+    background-color: transparent;
+}
+
+/* Bottom Nav Bar (Pages 2, 3, 6, 9) */
+.bottom-nav-bar {
+    flex-direction: row;
+    height: 90px;
+    flex-shrink: 0;
+    background-color: white;
+    border-top-width: 1px;
+    border-top-color: rgb(235, 235, 235);
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px; /* Safe area for modern phones */
+    padding-top: 6px;
+}
+
+.nav-item {
+    background-color: transparent;
+    border-width: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 86px;
+    height: 64px;
+    border-radius: 32px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.nav-icon {
+    /* 24x24 keeps icon size proportional inside 86x64 nav buttons. */
+    width: 24px;
+    height: 24px;
+    margin-bottom: 4px;
+    -unity-background-scale-mode: scale-to-fit;
+    background-repeat: no-repeat;
+    -unity-background-image-tint-color: rgb(145, 154, 169);
+}
+
+.nav-text {
+    font-size: 10px;
+    -unity-font-style: bold;
+    color: rgb(145, 154, 169);
+}
+
+.nav-icon-home {
+    background-image: url("Icons/mdi--home.svg");
+}
+
+.nav-icon-explore {
+    background-image: url("Icons/mdi--explore.svg");
+}
+
+.nav-icon-saved {
+    background-image: url("Icons/mdi--bookmark.svg");
+}
+
+.nav-icon-settings {
+    background-image: url("Icons/mdi--settings.svg");
+}
+
+/* Active State Colors */
+.nav-item-active {
+    background-color: rgb(10, 88, 202);
+}
+
+.nav-item-active .nav-icon {
+    -unity-background-image-tint-color: rgb(250, 252, 255);
+}
+
+.nav-item-active .nav-text {
+    color: rgb(250, 252, 255);
+}

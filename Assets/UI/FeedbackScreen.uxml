@@ -1,0 +1,56 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <ui:Style src="GlobalStyle.uss" />
+    <ui:Style src="FeedbackScreen.uss" />
+
+    <ui:VisualElement class="feedback-screen">
+        <ui:VisualElement class="feedback-top-bar">
+            <ui:Button name="BtnBackFeedback" text="&#x2190;" class="feedback-back" />
+            <ui:Label text="Feedback" class="feedback-top-title" />
+        </ui:VisualElement>
+
+        <ui:ScrollView class="feedback-scroll">
+            <ui:VisualElement class="feedback-content">
+                <ui:Label text="Help us guide better" class="feedback-title" />
+                <ui:Label text="Your insights refine the NavAR precision for everyone." class="feedback-subtitle" />
+
+                <ui:Label text="OVERALL EXPERIENCE" class="feedback-section-label" />
+                <ui:VisualElement class="feedback-stars">
+                    <ui:Button name="Star1" text="*" class="feedback-star feedback-star-on" />
+                    <ui:Button name="Star2" text="*" class="feedback-star feedback-star-on" />
+                    <ui:Button name="Star3" text="*" class="feedback-star feedback-star-on" />
+                    <ui:Button name="Star4" text="*" class="feedback-star feedback-star-on" />
+                    <ui:Button name="Star5" text="*" class="feedback-star" />
+                </ui:VisualElement>
+
+                <ui:Label text="What went wrong?" class="feedback-question" />
+                <ui:VisualElement class="feedback-chip-wrap">
+                    <ui:Button name="ChipWrongDirection" text="Wrong direction" class="feedback-chip feedback-chip-active" />
+                    <ui:Button name="ChipArDrift" text="AR drift" class="feedback-chip" />
+                    <ui:Button name="ChipMapInaccuracy" text="Map inaccuracy" class="feedback-chip" />
+                    <ui:Button name="ChipLaggingView" text="Lagging view" class="feedback-chip" />
+                    <ui:Button name="ChipPoorLighting" text="Poor lighting" class="feedback-chip" />
+                    <ui:Button name="ChipOther" text="Other" class="feedback-chip" />
+                </ui:VisualElement>
+
+                <ui:VisualElement class="feedback-context-card">
+                    <ui:Label text="LOCATION CONTEXT" class="feedback-context-label" />
+                    <ui:Label text="Grand Central Station, Platform 4" class="feedback-context-title" />
+                    <ui:VisualElement class="feedback-context-row">
+                        <ui:VisualElement class="feedback-pin-icon" />
+                        <ui:Label text="Auto-attached to report" class="feedback-context-meta" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+
+                <ui:VisualElement class="feedback-image-placeholder">
+                    <ui:VisualElement class="feedback-image-icon" />
+                </ui:VisualElement>
+
+                <ui:Label text="ADDITIONAL COMMENTS" class="feedback-section-label feedback-comments-label" />
+                <ui:TextField name="FeedbackCommentInput" multiline="true" class="feedback-textarea" />
+
+                <ui:Button name="BtnSubmitFeedback" text="Submit Feedback ->" class="feedback-submit" />
+                <ui:Label text="By submitting, you help improve our spatial engine. Data is handled per our Privacy Policy." class="feedback-footnote" />
+            </ui:VisualElement>
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

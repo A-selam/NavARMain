@@ -1,0 +1,51 @@
+/* Splash Specific Styles */
+.splash-logo-box {
+    width: 64px;
+    height: 64px;
+    background-color: rgb(230, 240, 255); /* Light blue box */
+    border-radius: 16px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.splash-title {
+    font-size: 42px;
+    -unity-font-style: bold-and-italic;
+    margin-bottom: 4px;
+}
+
+.splash-subtitle {
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 60px;
+}
+
+.splash-spinner {
+    width: 40px;
+    height: 40px;
+    /* In Unity, we will later rotate this via C# or an animation. For now, it's a placeholder circle */
+    border-left-color: rgb(10, 88, 202);
+    border-right-color: rgb(10, 88, 202);
+    border-top-color: rgb(10, 88, 202);
+    border-bottom-color: rgba(10, 88, 202, 0.2);
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-radius: 50%;
+}
+
+.splash-version {
+    position: absolute;
+    bottom: 40px;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.splash-logo-icon {
+    width: 24px;
+    height: 24px;
+    background-color: rgb(10, 88, 202);
+    border-radius: 6px;
+}

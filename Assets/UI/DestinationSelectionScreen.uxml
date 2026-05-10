@@ -1,0 +1,24 @@
+﻿<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <ui:Style src="GlobalStyle.uss" />
+    <ui:Style src="DestinationScreen.uss" />
+
+    <ui:VisualElement class="destination-screen">
+        <ui:VisualElement class="top-controls">
+            <ui:VisualElement class="search-box">
+                <ui:VisualElement class="search-icon" />
+                <ui:TextField name="SearchInput" value="Search room, lab, office..." class="search-input" />
+            </ui:VisualElement>
+
+            <ui:ScrollView mode="Horizontal" class="category-scroll">
+                <ui:VisualElement class="category-row">
+                    <ui:Button text="All" name="BtnCategoryAll" class="category-pill category-pill-active" />
+                    <ui:Button text="Offices" name="BtnCategoryOffices" class="category-pill" />
+                    <ui:Button text="Labs" name="BtnCategoryLabs" class="category-pill" />
+                    <ui:Button text="Restrooms" name="BtnCategoryRestrooms" class="category-pill" />
+                </ui:VisualElement>
+            </ui:ScrollView>
+        </ui:VisualElement>
+
+        <ui:ScrollView name="DestinationListContainer" class="destination-list" mode="Vertical" style="flex-grow:1;" />
+    </ui:VisualElement>
+</ui:UXML>

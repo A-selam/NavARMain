@@ -1,0 +1,38 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <ui:Style src="GlobalStyle.uss" />
+    <ui:Style src="ArOverlay.uss" />
+
+    <ui:VisualElement class="ar-screen">
+        <ui:VisualElement class="ar-container">
+            <ui:VisualElement class="ar-top-row">
+                <ui:Button name="BtnArBack" text="&#x2190;" class="ar-circle-btn" />
+
+                <ui:VisualElement name="DirectionContainer" class="direction-bar">
+                    <ui:Button name="BtnAudio" text="A" class="direction-audio" />
+                    <ui:Label name="InstructionText" text="Turn Right in 5 meters" class="direction-text" />
+                </ui:VisualElement>
+
+                <ui:Button name="BtnMap" text="M" class="ar-circle-btn" />
+            </ui:VisualElement>
+
+            <ui:Button name="BtnHelp" text="?" class="ar-help-btn" />
+
+            <!-- <ui:VisualElement class="ar-mid-marker">
+                <ui:VisualElement class="ar-arrow" />
+                <ui:VisualElement class="ar-distance-pill">
+                    <ui:Label text="5m" class="ar-distance-text" />
+                </ui:VisualElement>
+            </ui:VisualElement> -->
+
+            <ui:VisualElement class="bottom-card">
+                <ui:Label text="DESTINATION" class="destination-label" />
+                <ui:Label name="TargetNameText" text="Lab 304" class="destination-title" />
+
+                <ui:VisualElement class="card-actions">
+                    <ui:Button name="BtnRescan" text="Rescan" class="btn-rescan" />
+                    <ui:Button name="BtnEnd" text="End" class="btn-end" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

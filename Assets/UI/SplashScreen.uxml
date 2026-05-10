@@ -1,0 +1,27 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    
+    <!-- Link our global stylesheet -->
+    <ui:Style src="GlobalStyle.uss" />
+    <ui:Style src="SplashScreen.uss" />
+
+    <!-- The Main Container -->
+    <ui:VisualElement name="SplashScreen" class="screen-container">
+        
+        <!-- Logo Box -->
+        <ui:VisualElement class="splash-logo-box">
+            <!-- Note: You will assign your blue arrow sprite here later in UI Builder -->
+            <ui:VisualElement name="LogoIcon" class="splash-logo-icon" />
+        </ui:VisualElement>
+
+        <!-- Brand Text -->
+        <ui:Label text="NavAR" class="splash-title text-brand-dark" />
+        <ui:Label text="AUGMENTED WAYFINDING" class="splash-subtitle text-gray-light" />
+
+        <!-- Loading Spinner -->
+        <ui:VisualElement name="Spinner" class="splash-spinner" />
+
+        <!-- Version Number at the bottom -->
+        <ui:Label text="VERSION 2.4.0" class="splash-version text-gray-light" />
+
+    </ui:VisualElement>
+</ui:UXML>

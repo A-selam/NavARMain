@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <ui:Style src="GlobalStyle.uss" />
+    <ui:Style src="QrScanner.uss" />
+
+    <ui:VisualElement class="scanner-container">
+        <ui:Button name="BtnCloseScanner" text="X" class="scanner-close-btn" />
+
+        <ui:VisualElement class="scanner-info-card">
+            <ui:VisualElement class="info-icon-box">
+                <ui:VisualElement class="info-icon-glyph" />
+            </ui:VisualElement>
+
+            <ui:VisualElement class="info-text-container">
+                <ui:Label text="Wayfinding Start" class="info-title" />
+                <ui:Label text="Scan the marker located on the orientation totem to calibrate your AR view." class="info-desc" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

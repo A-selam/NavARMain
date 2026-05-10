@@ -1,0 +1,1258 @@
+{
+  "anchors": [
+    {
+      "qr_id": "Block-H-Floor-2-1",
+      "floor_id": 2,
+      "location_name": "Block-H-Floor-2-1",
+      "x": -10.539999961853028,
+      "y": 1.5,
+      "z": -3.5299999713897707,
+      "rotation_y": 0.0
+    },
+    {
+      "qr_id": "Block-H-Floor-2-2",
+      "floor_id": 2,
+      "location_name": "Block-H-Floor-2-2",
+      "x": -10.470000267028809,
+      "y": 1.5,
+      "z": 6.900000095367432,
+      "rotation_y": 0.0
+    },
+    {
+      "qr_id": "Block-H-Floor-2-3",
+      "floor_id": 2,
+      "location_name": "Block-H-Floor-2-3",
+      "x": -6.78000020980835,
+      "y": 1.5,
+      "z": -7.389999866485596,
+      "rotation_y": 0.0
+    },
+    {
+      "qr_id": "Block-H-Floor-2-4",
+      "floor_id": 2,
+      "location_name": "Block-H-Floor-2-4",
+      "x": 10.5,
+      "y": 1.5,
+      "z": -6.820000171661377,
+      "rotation_y": 0.0
+    },
+    {
+      "qr_id": "Block-H-Floor-2-5",
+      "floor_id": 2,
+      "location_name": "Block-H-Floor-2-5",
+      "x": -4.119999885559082,
+      "y": 1.5,
+      "z": 6.900000095367432,
+      "rotation_y": 0.0
+    },
+    {
+      "qr_id": "Block-H-Floor-2-6",
+      "floor_id": 2,
+      "location_name": "Block-H-Floor-2-6",
+      "x": 10.5,
+      "y": 1.5,
+      "z": 6.900000095367432,
+      "rotation_y": 0.0
+    },
+    {
+      "qr_id": "Block-H-Floor-2-7",
+      "floor_id": 2,
+      "location_name": "Block-H-Floor-2-7",
+      "x": 15.800000190734864,
+      "y": 1.5,
+      "z": 15.300000190734864,
+      "rotation_y": 0.0
+    },
+    {
+      "qr_id": "Block-H-Floor-2-8",
+      "floor_id": 2,
+      "location_name": "Block-H-Floor-2-8",
+      "x": 15.800000190734864,
+      "y": 1.5,
+      "z": -15.220000267028809,
+      "rotation_y": 0.0
+    },
+    {
+      "qr_id": "Block-H-Floor-2-stair-2",
+      "floor_id": 2,
+      "location_name": "Block-H-Floor-2-stair-2",
+      "x": 5.429999828338623,
+      "y": 1.5,
+      "z": 2.950000047683716,
+      "rotation_y": 0.0
+    },
+    {
+      "qr_id": "Block-H-Floor-2-stair-4",
+      "floor_id": 2,
+      "location_name": "Block-H-Floor-2-stair-4",
+      "x": -3.5,
+      "y": 1.5,
+      "z": 2.950000047683716,
+      "rotation_y": 0.0
+    }
+  ],
+  "destinations": [
+    {
+      "destination_id": "Block-H-Floor-2-Lab-1-door-1 ",
+      "floor_id": 2,
+      "name": "Block-H-Floor-2-Lab-1-door-1 ",
+      "category": "Extracted",
+      "target_x": -10.5600004196167,
+      "target_y": 1.5,
+      "target_z": -5.150000095367432
+    },
+    {
+      "destination_id": "Block-H-Floor-2-Lab-1-door-2",
+      "floor_id": 2,
+      "name": "Block-H-Floor-2-Lab-1-door-2",
+      "category": "Extracted",
+      "target_x": -10.5,
+      "target_y": 1.5,
+      "target_z": 5.800000190734863
+    },
+    {
+      "destination_id": "Block-H-Floor-2-Lab-2-door-1 ",
+      "floor_id": 2,
+      "name": "Block-H-Floor-2-Lab-2-door-1 ",
+      "category": "Extracted",
+      "target_x": -6.75,
+      "target_y": 1.5,
+      "target_z": -8.5
+    },
+    {
+      "destination_id": "Block-H-Floor-2-Lab-2-door-2",
+      "floor_id": 2,
+      "name": "Block-H-Floor-2-Lab-2-door-2",
+      "category": "Extracted",
+      "target_x": 11.600000381469727,
+      "target_y": 1.5,
+      "target_z": -6.849999904632568
+    },
+    {
+      "destination_id": "Block-H-Floor-2-Lab-3-door-1",
+      "floor_id": 2,
+      "name": "Block-H-Floor-2-Lab-3-door-1",
+      "category": "Extracted",
+      "target_x": -5.179999828338623,
+      "target_y": 1.5,
+      "target_z": 6.949999809265137
+    },
+    {
+      "destination_id": "Block-H-Floor-2-Lab-3-door-2",
+      "floor_id": 2,
+      "name": "Block-H-Floor-2-Lab-3-door-2",
+      "category": "Extracted",
+      "target_x": 11.600000381469727,
+      "target_y": 1.5,
+      "target_z": 6.949999809265137
+    },
+    {
+      "destination_id": "Block-H-Floor-2-Office-1-door-1 ",
+      "floor_id": 2,
+      "name": "Block-H-Floor-2-Office-1-door-1 ",
+      "category": "Extracted",
+      "target_x": 14.779999732971192,
+      "target_y": 1.5,
+      "target_z": 15.329999923706055
+    },
+    {
+      "destination_id": "Block-H-Floor-2-Office-2-door-1",
+      "floor_id": 2,
+      "name": "Block-H-Floor-2-Office-2-door-1",
+      "category": "Extracted",
+      "target_x": 14.779999732971192,
+      "target_y": 1.5,
+      "target_z": -15.25
+    },
+    {
+      "destination_id": "Block-H-Floor-2-stair-1",
+      "floor_id": 2,
+      "name": "Block-H-Floor-2-stair-1",
+      "category": "Extracted",
+      "target_x": 5.429999828338623,
+      "target_y": 1.5,
+      "target_z": 2.6500000953674318
+    },
+    {
+      "destination_id": "Block-H-Floor-2-stair-3",
+      "floor_id": 2,
+      "name": "Block-H-Floor-2-stair-3",
+      "category": "Extracted",
+      "target_x": -3.5,
+      "target_y": 1.5,
+      "target_z": 2.6500000953674318
+    }
+  ],
+  "entrances": [
+    {
+      "entrance_id": "Block-H-Floor-2-Lab-1-door-1 ",
+      "destination_id": "Block-H-Floor-2-Lab-1-door-1 ",
+      "node_id": "Block-H-F2-N-011",
+      "is_primary": true,
+      "tags": "seed"
+    },
+    {
+      "entrance_id": "Block-H-Floor-2-Lab-1-door-2",
+      "destination_id": "Block-H-Floor-2-Lab-1-door-2",
+      "node_id": "Block-H-F2-N-012",
+      "is_primary": true,
+      "tags": "seed"
+    },
+    {
+      "entrance_id": "Block-H-Floor-2-Lab-2-door-1 ",
+      "destination_id": "Block-H-Floor-2-Lab-2-door-1 ",
+      "node_id": "Block-H-F2-N-013",
+      "is_primary": true,
+      "tags": "seed"
+    },
+    {
+      "entrance_id": "Block-H-Floor-2-Lab-2-door-2",
+      "destination_id": "Block-H-Floor-2-Lab-2-door-2",
+      "node_id": "Block-H-F2-N-014",
+      "is_primary": true,
+      "tags": "seed"
+    },
+    {
+      "entrance_id": "Block-H-Floor-2-Lab-3-door-1",
+      "destination_id": "Block-H-Floor-2-Lab-3-door-1",
+      "node_id": "Block-H-F2-N-015",
+      "is_primary": true,
+      "tags": "seed"
+    },
+    {
+      "entrance_id": "Block-H-Floor-2-Lab-3-door-2",
+      "destination_id": "Block-H-Floor-2-Lab-3-door-2",
+      "node_id": "Block-H-F2-N-016",
+      "is_primary": true,
+      "tags": "seed"
+    },
+    {
+      "entrance_id": "Block-H-Floor-2-Office-1-door-1 ",
+      "destination_id": "Block-H-Floor-2-Office-1-door-1 ",
+      "node_id": "Block-H-F2-N-017",
+      "is_primary": true,
+      "tags": "seed"
+    },
+    {
+      "entrance_id": "Block-H-Floor-2-Office-2-door-1",
+      "destination_id": "Block-H-Floor-2-Office-2-door-1",
+      "node_id": "Block-H-F2-N-018",
+      "is_primary": true,
+      "tags": "seed"
+    },
+    {
+      "entrance_id": "Block-H-Floor-2-stair-1",
+      "destination_id": "Block-H-Floor-2-stair-1",
+      "node_id": "Block-H-F2-N-019",
+      "is_primary": true,
+      "tags": "seed"
+    },
+    {
+      "entrance_id": "Block-H-Floor-2-stair-3",
+      "destination_id": "Block-H-Floor-2-stair-3",
+      "node_id": "Block-H-F2-N-020",
+      "is_primary": true,
+      "tags": "seed"
+    }
+  ],
+  "nodes": [
+    {
+      "node_id": "Block-H-F2-N-001",
+      "floor_id": 2,
+      "x": -10.539999961853028,
+      "y": 1.5,
+      "z": -3.5299999713897707,
+      "node_type": 1,
+      "is_accessible": true
+    },
+    {
+      "node_id": "Block-H-F2-N-002",
+      "floor_id": 2,
+      "x": -10.470000267028809,
+      "y": 1.5,
+      "z": 6.900000095367432,
+      "node_type": 1,
+      "is_accessible": true
+    },
+    {
+      "node_id": "Block-H-F2-N-003",
+      "floor_id": 2,
+      "x": -6.78000020980835,
+      "y": 1.5,
+      "z": -7.389999866485596,
+      "node_type": 1,
+      "is_accessible": true
+    },
+    {
+      "node_id": "Block-H-F2-N-004",
+      "floor_id": 2,
+      "x": 10.5,
+      "y": 1.5,
+      "z": -6.820000171661377,
+      "node_type": 1,
+      "is_accessible": true
+    },
+    {
+      "node_id": "Block-H-F2-N-005",
+      "floor_id": 2,
+      "x": -4.119999885559082,
+      "y": 1.5,
+      "z": 6.900000095367432,
+      "node_type": 1,
+      "is_accessible": true
+    },
+    {
+      "node_id": "Block-H-F2-N-006",
+      "floor_id": 2,
+      "x": 10.5,
+      "y": 1.5,
+      "z": 6.900000095367432,
+      "node_type": 1,
+      "is_accessible": true
+    },
+    {
+      "node_id": "Block-H-F2-N-007",
+      "floor_id": 2,
+      "x": 15.800000190734864,
+      "y": 1.5,
+      "z": 15.300000190734864,
+      "node_type": 1,
+      "is_accessible": true
+    },
+    {
+      "node_id": "Block-H-F2-N-008",
+      "floor_id": 2,
+      "x": 15.800000190734864,
+      "y": 1.5,
+      "z": -15.220000267028809,
+      "node_type": 1,
+      "is_accessible": true
+    },
+    {
+      "node_id": "Block-H-F2-N-009",
+      "floor_id": 2,
+      "x": 5.429999828338623,
+      "y": 1.5,
+      "z": 2.950000047683716,
+      "node_type": 1,
+      "is_accessible": true
+    },
+    {
+      "node_id": "Block-H-F2-N-010",
+      "floor_id": 2,
+      "x": -3.5,
+      "y": 1.5,
+      "z": 2.950000047683716,
+      "node_type": 1,
+      "is_accessible": true
+    },
+    {
+      "node_id": "Block-H-F2-N-011",
+      "floor_id": 2,
+      "x": -10.5600004196167,
+      "y": 1.5,
+      "z": -5.150000095367432,
+      "node_type": 5,
+      "is_accessible": true
+    },
+    {
+      "node_id": "Block-H-F2-N-012",
+      "floor_id": 2,
+      "x": -10.5,
+      "y": 1.5,
+      "z": 5.800000190734863,
+      "node_type": 5,
+      "is_accessible": true
+    },
+    {
+      "node_id": "Block-H-F2-N-013",
+      "floor_id": 2,
+      "x": -6.75,
+      "y": 1.5,
+      "z": -8.5,
+      "node_type": 5,
+      "is_accessible": true
+    },
+    {
+      "node_id": "Block-H-F2-N-014",
+      "floor_id": 2,
+      "x": 11.600000381469727,
+      "y": 1.5,
+      "z": -6.849999904632568,
+      "node_type": 5,
+      "is_accessible": true
+    },
+    {
+      "node_id": "Block-H-F2-N-015",
+      "floor_id": 2,
+      "x": -5.179999828338623,
+      "y": 1.5,
+      "z": 6.949999809265137,
+      "node_type": 5,
+      "is_accessible": true
+    },
+    {
+      "node_id": "Block-H-F2-N-016",
+      "floor_id": 2,
+      "x": 11.600000381469727,
+      "y": 1.5,
+      "z": 6.949999809265137,
+      "node_type": 5,
+      "is_accessible": true
+    },
+    {
+      "node_id": "Block-H-F2-N-017",
+      "floor_id": 2,
+      "x": 14.779999732971192,
+      "y": 1.5,
+      "z": 15.329999923706055,
+      "node_type": 5,
+      "is_accessible": true
+    },
+    {
+      "node_id": "Block-H-F2-N-018",
+      "floor_id": 2,
+      "x": 14.779999732971192,
+      "y": 1.5,
+      "z": -15.25,
+      "node_type": 5,
+      "is_accessible": true
+    },
+    {
+      "node_id": "Block-H-F2-N-019",
+      "floor_id": 2,
+      "x": 5.429999828338623,
+      "y": 1.5,
+      "z": 2.6500000953674318,
+      "node_type": 5,
+      "is_accessible": true
+    },
+    {
+      "node_id": "Block-H-F2-N-020",
+      "floor_id": 2,
+      "x": -3.5,
+      "y": 1.5,
+      "z": 2.6500000953674318,
+      "node_type": 5,
+      "is_accessible": true
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "Block-H-F2-N-001->Block-H-F2-N-011",
+      "from_node_id": "Block-H-F2-N-001",
+      "to_node_id": "Block-H-F2-N-011",
+      "distance": 1.6201236248016358,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-019->Block-H-F1-N-009",
+      "from_node_id": "Block-H-F2-N-019",
+      "to_node_id": "Block-H-F1-N-009",
+      "distance": 1.0,
+      "edge_type": 2,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-020->Block-H-F3-N-006",
+      "from_node_id": "Block-H-F2-N-020",
+      "to_node_id": "Block-H-F3-N-006",
+      "distance": 1.0,
+      "edge_type": 2,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-001->Block-H-F2-N-012",
+      "from_node_id": "Block-H-F2-N-001",
+      "to_node_id": "Block-H-F2-N-012",
+      "distance": 9.330085754394532,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-001->Block-H-F2-N-013",
+      "from_node_id": "Block-H-F2-N-001",
+      "to_node_id": "Block-H-F2-N-013",
+      "distance": 6.250200271606445,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-001->Block-H-F2-N-014",
+      "from_node_id": "Block-H-F2-N-001",
+      "to_node_id": "Block-H-F2-N-014",
+      "distance": 22.387540817260743,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-001->Block-H-F2-N-015",
+      "from_node_id": "Block-H-F2-N-001",
+      "to_node_id": "Block-H-F2-N-015",
+      "distance": 11.771150588989258,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-001->Block-H-F2-N-016",
+      "from_node_id": "Block-H-F2-N-001",
+      "to_node_id": "Block-H-F2-N-016",
+      "distance": 24.495100021362306,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-001->Block-H-F2-N-017",
+      "from_node_id": "Block-H-F2-N-001",
+      "to_node_id": "Block-H-F2-N-017",
+      "distance": 31.572172164916993,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-001->Block-H-F2-N-018",
+      "from_node_id": "Block-H-F2-N-001",
+      "to_node_id": "Block-H-F2-N-018",
+      "distance": 27.900909423828126,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-001->Block-H-F2-N-019",
+      "from_node_id": "Block-H-F2-N-001",
+      "to_node_id": "Block-H-F2-N-019",
+      "distance": 17.124055862426759,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-001->Block-H-F2-N-020",
+      "from_node_id": "Block-H-F2-N-001",
+      "to_node_id": "Block-H-F2-N-020",
+      "distance": 9.367711067199707,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-002->Block-H-F2-N-011",
+      "from_node_id": "Block-H-F2-N-002",
+      "to_node_id": "Block-H-F2-N-011",
+      "distance": 12.050335884094239,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-002->Block-H-F2-N-012",
+      "from_node_id": "Block-H-F2-N-002",
+      "to_node_id": "Block-H-F2-N-012",
+      "distance": 1.100408911705017,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-002->Block-H-F2-N-013",
+      "from_node_id": "Block-H-F2-N-002",
+      "to_node_id": "Block-H-F2-N-013",
+      "distance": 15.842928886413575,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-002->Block-H-F2-N-014",
+      "from_node_id": "Block-H-F2-N-002",
+      "to_node_id": "Block-H-F2-N-014",
+      "distance": 26.00283432006836,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-002->Block-H-F2-N-015",
+      "from_node_id": "Block-H-F2-N-002",
+      "to_node_id": "Block-H-F2-N-015",
+      "distance": 5.290236949920654,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-002->Block-H-F2-N-016",
+      "from_node_id": "Block-H-F2-N-002",
+      "to_node_id": "Block-H-F2-N-016",
+      "distance": 22.070056915283204,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-002->Block-H-F2-N-017",
+      "from_node_id": "Block-H-F2-N-002",
+      "to_node_id": "Block-H-F2-N-017",
+      "distance": 26.62005615234375,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-002->Block-H-F2-N-018",
+      "from_node_id": "Block-H-F2-N-002",
+      "to_node_id": "Block-H-F2-N-018",
+      "distance": 33.58846664428711,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-002->Block-H-F2-N-019",
+      "from_node_id": "Block-H-F2-N-002",
+      "to_node_id": "Block-H-F2-N-019",
+      "distance": 16.45820426940918,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-002->Block-H-F2-N-020",
+      "from_node_id": "Block-H-F2-N-002",
+      "to_node_id": "Block-H-F2-N-020",
+      "distance": 8.163540840148926,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-003->Block-H-F2-N-011",
+      "from_node_id": "Block-H-F2-N-003",
+      "to_node_id": "Block-H-F2-N-011",
+      "distance": 4.393859386444092,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-003->Block-H-F2-N-012",
+      "from_node_id": "Block-H-F2-N-003",
+      "to_node_id": "Block-H-F2-N-012",
+      "distance": 13.704543113708496,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-003->Block-H-F2-N-013",
+      "from_node_id": "Block-H-F2-N-003",
+      "to_node_id": "Block-H-F2-N-013",
+      "distance": 1.110405445098877,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-003->Block-H-F2-N-014",
+      "from_node_id": "Block-H-F2-N-003",
+      "to_node_id": "Block-H-F2-N-014",
+      "distance": 18.38793182373047,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-003->Block-H-F2-N-015",
+      "from_node_id": "Block-H-F2-N-003",
+      "to_node_id": "Block-H-F2-N-015",
+      "distance": 14.428984642028809,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-003->Block-H-F2-N-016",
+      "from_node_id": "Block-H-F2-N-003",
+      "to_node_id": "Block-H-F2-N-016",
+      "distance": 23.31222915649414,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-003->Block-H-F2-N-017",
+      "from_node_id": "Block-H-F2-N-003",
+      "to_node_id": "Block-H-F2-N-017",
+      "distance": 31.321430206298829,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-003->Block-H-F2-N-018",
+      "from_node_id": "Block-H-F2-N-003",
+      "to_node_id": "Block-H-F2-N-018",
+      "distance": 22.94805335998535,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-003->Block-H-F2-N-019",
+      "from_node_id": "Block-H-F2-N-003",
+      "to_node_id": "Block-H-F2-N-019",
+      "distance": 15.80777359008789,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-003->Block-H-F2-N-020",
+      "from_node_id": "Block-H-F2-N-003",
+      "to_node_id": "Block-H-F2-N-020",
+      "distance": 10.562196731567383,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-004->Block-H-F2-N-011",
+      "from_node_id": "Block-H-F2-N-004",
+      "to_node_id": "Block-H-F2-N-011",
+      "distance": 21.126110076904298,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-004->Block-H-F2-N-012",
+      "from_node_id": "Block-H-F2-N-004",
+      "to_node_id": "Block-H-F2-N-012",
+      "distance": 24.500293731689454,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-004->Block-H-F2-N-013",
+      "from_node_id": "Block-H-F2-N-004",
+      "to_node_id": "Block-H-F2-N-013",
+      "distance": 17.331615447998048,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-004->Block-H-F2-N-014",
+      "from_node_id": "Block-H-F2-N-004",
+      "to_node_id": "Block-H-F2-N-014",
+      "distance": 1.1004093885421754,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-004->Block-H-F2-N-015",
+      "from_node_id": "Block-H-F2-N-004",
+      "to_node_id": "Block-H-F2-N-015",
+      "distance": 20.868045806884767,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-004->Block-H-F2-N-016",
+      "from_node_id": "Block-H-F2-N-004",
+      "to_node_id": "Block-H-F2-N-016",
+      "distance": 13.81386661529541,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-004->Block-H-F2-N-017",
+      "from_node_id": "Block-H-F2-N-004",
+      "to_node_id": "Block-H-F2-N-017",
+      "distance": 22.559717178344728,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-004->Block-H-F2-N-018",
+      "from_node_id": "Block-H-F2-N-004",
+      "to_node_id": "Block-H-F2-N-018",
+      "distance": 9.45427417755127,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-004->Block-H-F2-N-019",
+      "from_node_id": "Block-H-F2-N-004",
+      "to_node_id": "Block-H-F2-N-019",
+      "distance": 10.741778373718262,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-004->Block-H-F2-N-020",
+      "from_node_id": "Block-H-F2-N-004",
+      "to_node_id": "Block-H-F2-N-020",
+      "distance": 16.902097702026368,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-005->Block-H-F2-N-011",
+      "from_node_id": "Block-H-F2-N-005",
+      "to_node_id": "Block-H-F2-N-011",
+      "distance": 13.662946701049805,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-005->Block-H-F2-N-012",
+      "from_node_id": "Block-H-F2-N-005",
+      "to_node_id": "Block-H-F2-N-012",
+      "distance": 6.474133014678955,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-005->Block-H-F2-N-013",
+      "from_node_id": "Block-H-F2-N-005",
+      "to_node_id": "Block-H-F2-N-013",
+      "distance": 15.622960090637207,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-005->Block-H-F2-N-014",
+      "from_node_id": "Block-H-F2-N-005",
+      "to_node_id": "Block-H-F2-N-014",
+      "distance": 20.884944915771486,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-005->Block-H-F2-N-015",
+      "from_node_id": "Block-H-F2-N-005",
+      "to_node_id": "Block-H-F2-N-015",
+      "distance": 1.0611785650253297,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-005->Block-H-F2-N-016",
+      "from_node_id": "Block-H-F2-N-005",
+      "to_node_id": "Block-H-F2-N-016",
+      "distance": 15.72007942199707,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-005->Block-H-F2-N-017",
+      "from_node_id": "Block-H-F2-N-005",
+      "to_node_id": "Block-H-F2-N-017",
+      "distance": 20.69480323791504,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-005->Block-H-F2-N-018",
+      "from_node_id": "Block-H-F2-N-005",
+      "to_node_id": "Block-H-F2-N-018",
+      "distance": 29.117563247680665,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-005->Block-H-F2-N-019",
+      "from_node_id": "Block-H-F2-N-005",
+      "to_node_id": "Block-H-F2-N-019",
+      "distance": 10.45298957824707,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-005->Block-H-F2-N-020",
+      "from_node_id": "Block-H-F2-N-005",
+      "to_node_id": "Block-H-F2-N-020",
+      "distance": 4.294985294342041,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-006->Block-H-F2-N-011",
+      "from_node_id": "Block-H-F2-N-006",
+      "to_node_id": "Block-H-F2-N-011",
+      "distance": 24.26367950439453,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-006->Block-H-F2-N-012",
+      "from_node_id": "Block-H-F2-N-006",
+      "to_node_id": "Block-H-F2-N-012",
+      "distance": 21.028789520263673,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-006->Block-H-F2-N-013",
+      "from_node_id": "Block-H-F2-N-006",
+      "to_node_id": "Block-H-F2-N-013",
+      "distance": 23.124067306518556,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-006->Block-H-F2-N-014",
+      "from_node_id": "Block-H-F2-N-006",
+      "to_node_id": "Block-H-F2-N-014",
+      "distance": 13.793930053710938,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-006->Block-H-F2-N-015",
+      "from_node_id": "Block-H-F2-N-006",
+      "to_node_id": "Block-H-F2-N-015",
+      "distance": 15.68008041381836,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-006->Block-H-F2-N-016",
+      "from_node_id": "Block-H-F2-N-006",
+      "to_node_id": "Block-H-F2-N-016",
+      "distance": 1.1011360883712769,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-006->Block-H-F2-N-017",
+      "from_node_id": "Block-H-F2-N-006",
+      "to_node_id": "Block-H-F2-N-017",
+      "distance": 9.45427417755127,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-006->Block-H-F2-N-018",
+      "from_node_id": "Block-H-F2-N-006",
+      "to_node_id": "Block-H-F2-N-018",
+      "distance": 22.559717178344728,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-006->Block-H-F2-N-019",
+      "from_node_id": "Block-H-F2-N-006",
+      "to_node_id": "Block-H-F2-N-019",
+      "distance": 6.61569356918335,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-006->Block-H-F2-N-020",
+      "from_node_id": "Block-H-F2-N-006",
+      "to_node_id": "Block-H-F2-N-020",
+      "distance": 14.630874633789063,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-007->Block-H-F2-N-011",
+      "from_node_id": "Block-H-F2-N-007",
+      "to_node_id": "Block-H-F2-N-011",
+      "distance": 33.3624382019043,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-007->Block-H-F2-N-012",
+      "from_node_id": "Block-H-F2-N-007",
+      "to_node_id": "Block-H-F2-N-012",
+      "distance": 27.96319007873535,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-007->Block-H-F2-N-013",
+      "from_node_id": "Block-H-F2-N-007",
+      "to_node_id": "Block-H-F2-N-013",
+      "distance": 32.78631591796875,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-007->Block-H-F2-N-014",
+      "from_node_id": "Block-H-F2-N-007",
+      "to_node_id": "Block-H-F2-N-014",
+      "distance": 22.544677734375,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-007->Block-H-F2-N-015",
+      "from_node_id": "Block-H-F2-N-007",
+      "to_node_id": "Block-H-F2-N-015",
+      "distance": 22.58058738708496,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-007->Block-H-F2-N-016",
+      "from_node_id": "Block-H-F2-N-007",
+      "to_node_id": "Block-H-F2-N-016",
+      "distance": 9.34679126739502,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-007->Block-H-F2-N-017",
+      "from_node_id": "Block-H-F2-N-007",
+      "to_node_id": "Block-H-F2-N-017",
+      "distance": 1.0204415321350098,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-007->Block-H-F2-N-018",
+      "from_node_id": "Block-H-F2-N-007",
+      "to_node_id": "Block-H-F2-N-018",
+      "distance": 30.5670223236084,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-007->Block-H-F2-N-019",
+      "from_node_id": "Block-H-F2-N-007",
+      "to_node_id": "Block-H-F2-N-019",
+      "distance": 16.357242584228517,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-007->Block-H-F2-N-020",
+      "from_node_id": "Block-H-F2-N-007",
+      "to_node_id": "Block-H-F2-N-020",
+      "distance": 23.076231002807618,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-008->Block-H-F2-N-011",
+      "from_node_id": "Block-H-F2-N-008",
+      "to_node_id": "Block-H-F2-N-011",
+      "distance": 28.21798324584961,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-008->Block-H-F2-N-012",
+      "from_node_id": "Block-H-F2-N-008",
+      "to_node_id": "Block-H-F2-N-012",
+      "distance": 33.66794204711914,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-008->Block-H-F2-N-013",
+      "from_node_id": "Block-H-F2-N-008",
+      "to_node_id": "Block-H-F2-N-013",
+      "distance": 23.529998779296876,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-008->Block-H-F2-N-014",
+      "from_node_id": "Block-H-F2-N-008",
+      "to_node_id": "Block-H-F2-N-014",
+      "distance": 9.364663124084473,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-008->Block-H-F2-N-015",
+      "from_node_id": "Block-H-F2-N-008",
+      "to_node_id": "Block-H-F2-N-015",
+      "distance": 30.523258209228517,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-008->Block-H-F2-N-016",
+      "from_node_id": "Block-H-F2-N-008",
+      "to_node_id": "Block-H-F2-N-016",
+      "distance": 22.564327239990236,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-008->Block-H-F2-N-017",
+      "from_node_id": "Block-H-F2-N-008",
+      "to_node_id": "Block-H-F2-N-017",
+      "distance": 30.5670223236084,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-008->Block-H-F2-N-018",
+      "from_node_id": "Block-H-F2-N-008",
+      "to_node_id": "Block-H-F2-N-018",
+      "distance": 1.0204415321350098,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-008->Block-H-F2-N-019",
+      "from_node_id": "Block-H-F2-N-008",
+      "to_node_id": "Block-H-F2-N-019",
+      "distance": 20.660924911499025,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-008->Block-H-F2-N-020",
+      "from_node_id": "Block-H-F2-N-008",
+      "to_node_id": "Block-H-F2-N-020",
+      "distance": 26.302602767944337,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-009->Block-H-F2-N-011",
+      "from_node_id": "Block-H-F2-N-009",
+      "to_node_id": "Block-H-F2-N-011",
+      "distance": 17.9245662689209,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-009->Block-H-F2-N-012",
+      "from_node_id": "Block-H-F2-N-009",
+      "to_node_id": "Block-H-F2-N-012",
+      "distance": 16.18293571472168,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-009->Block-H-F2-N-013",
+      "from_node_id": "Block-H-F2-N-009",
+      "to_node_id": "Block-H-F2-N-013",
+      "distance": 16.71690559387207,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-009->Block-H-F2-N-014",
+      "from_node_id": "Block-H-F2-N-009",
+      "to_node_id": "Block-H-F2-N-014",
+      "distance": 11.58053970336914,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-009->Block-H-F2-N-015",
+      "from_node_id": "Block-H-F2-N-009",
+      "to_node_id": "Block-H-F2-N-015",
+      "distance": 11.338963508605957,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-009->Block-H-F2-N-016",
+      "from_node_id": "Block-H-F2-N-009",
+      "to_node_id": "Block-H-F2-N-016",
+      "distance": 7.353156089782715,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-009->Block-H-F2-N-017",
+      "from_node_id": "Block-H-F2-N-009",
+      "to_node_id": "Block-H-F2-N-017",
+      "distance": 15.514087677001954,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-009->Block-H-F2-N-018",
+      "from_node_id": "Block-H-F2-N-009",
+      "to_node_id": "Block-H-F2-N-018",
+      "distance": 20.461244583129884,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-009->Block-H-F2-N-019",
+      "from_node_id": "Block-H-F2-N-009",
+      "to_node_id": "Block-H-F2-N-019",
+      "distance": 0.2999999523162842,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-009->Block-H-F2-N-020",
+      "from_node_id": "Block-H-F2-N-009",
+      "to_node_id": "Block-H-F2-N-020",
+      "distance": 8.935037612915039,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-010->Block-H-F2-N-011",
+      "from_node_id": "Block-H-F2-N-010",
+      "to_node_id": "Block-H-F2-N-011",
+      "distance": 10.74493408203125,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-010->Block-H-F2-N-012",
+      "from_node_id": "Block-H-F2-N-010",
+      "to_node_id": "Block-H-F2-N-012",
+      "distance": 7.557942867279053,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-010->Block-H-F2-N-013",
+      "from_node_id": "Block-H-F2-N-010",
+      "to_node_id": "Block-H-F2-N-013",
+      "distance": 11.902310371398926,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-010->Block-H-F2-N-014",
+      "from_node_id": "Block-H-F2-N-010",
+      "to_node_id": "Block-H-F2-N-014",
+      "distance": 18.001388549804689,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-010->Block-H-F2-N-015",
+      "from_node_id": "Block-H-F2-N-010",
+      "to_node_id": "Block-H-F2-N-015",
+      "distance": 4.3384785652160648,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-010->Block-H-F2-N-016",
+      "from_node_id": "Block-H-F2-N-010",
+      "to_node_id": "Block-H-F2-N-016",
+      "distance": 15.620820045471192,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-010->Block-H-F2-N-017",
+      "from_node_id": "Block-H-F2-N-010",
+      "to_node_id": "Block-H-F2-N-017",
+      "distance": 22.077651977539064,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-010->Block-H-F2-N-018",
+      "from_node_id": "Block-H-F2-N-010",
+      "to_node_id": "Block-H-F2-N-018",
+      "distance": 25.795316696166993,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-010->Block-H-F2-N-019",
+      "from_node_id": "Block-H-F2-N-010",
+      "to_node_id": "Block-H-F2-N-019",
+      "distance": 8.935037612915039,
+      "edge_type": 1,
+      "is_accessible": true
+    },
+    {
+      "edge_id": "Block-H-F2-N-010->Block-H-F2-N-020",
+      "from_node_id": "Block-H-F2-N-010",
+      "to_node_id": "Block-H-F2-N-020",
+      "distance": 0.2999999523162842,
+      "edge_type": 1,
+      "is_accessible": true
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <ui:Style src="GlobalStyle.uss" />
+    <ui:Style src="SettingsScreen.uss" />
+
+    <ui:VisualElement class="settings-screen">
+        <ui:VisualElement class="settings-top-bar">
+            <ui:VisualElement class="settings-menu-icon" />
+            <ui:Label text="NavAR" class="settings-brand" />
+        </ui:VisualElement>
+
+        <ui:ScrollView class="settings-scroll">
+            <ui:VisualElement class="settings-content">
+                <ui:Label text="Settings" class="settings-title" />
+                <ui:Label text="Customize your navigation experience for maximum accessibility and comfort." class="settings-subtitle" />
+
+                <ui:Label text="ACCESSIBILITY" class="settings-section-label" />
+                <ui:VisualElement class="settings-card">
+                    <ui:VisualElement class="settings-row">
+                        <ui:VisualElement class="settings-row-icon" />
+                        <ui:VisualElement class="settings-row-copy">
+                            <ui:Label text="Voice Guidance" class="settings-row-title" />
+                            <ui:Label text="Step-by-step audio instructions" class="settings-row-desc" />
+                        </ui:VisualElement>
+                        <ui:Toggle name="ToggleVoiceGuidance" class="settings-toggle" value="true" />
+                    </ui:VisualElement>
+
+                    <ui:VisualElement class="settings-divider" />
+
+                    <ui:VisualElement class="settings-row">
+                        <ui:VisualElement class="settings-row-icon settings-row-icon-alt" />
+                        <ui:VisualElement class="settings-row-copy">
+                            <ui:Label text="High Contrast" class="settings-row-title" />
+                            <ui:Label text="Enhanced visibility for UI elements" class="settings-row-desc" />
+                        </ui:VisualElement>
+                        <ui:Toggle name="ToggleHighContrast" class="settings-toggle" />
+                    </ui:VisualElement>
+
+                    <ui:VisualElement class="settings-divider" />
+
+                    <ui:VisualElement class="settings-row">
+                        <ui:VisualElement class="settings-row-icon" />
+                        <ui:VisualElement class="settings-row-copy">
+                            <ui:Label text="Elevator Routing" class="settings-row-title" />
+                            <ui:Label text="Prefer lifts over stairs or escalators" class="settings-row-desc" />
+                        </ui:VisualElement>
+                        <ui:Toggle name="ToggleElevatorRouting" class="settings-toggle" value="true" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+
+                <ui:Label text="DISPLAY" class="settings-section-label" />
+                <ui:VisualElement class="settings-card">
+                    <ui:VisualElement class="settings-row">
+                        <ui:VisualElement class="settings-row-icon" />
+                        <ui:VisualElement class="settings-row-copy">
+                            <ui:Label text="Text Size" class="settings-row-title" />
+                            <ui:Label text="Adjust font scaling across the app" class="settings-row-desc" />
+                        </ui:VisualElement>
+                        <ui:Label name="TextSizeValueLabel" text="115%" class="settings-value" />
+                    </ui:VisualElement>
+
+                    <ui:VisualElement class="settings-slider-row">
+                        <ui:Label text="A" class="settings-slider-min" />
+                        <ui:SliderInt name="TextSizeSlider" low-value="80" high-value="140" value="115" class="settings-slider" />
+                        <ui:Label text="A" class="settings-slider-max" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+
+                <ui:VisualElement class="settings-help-grid">
+                    <ui:Button name="BtnHelpCenter" text="Help Center" class="settings-help-card" />
+                    <ui:Button name="BtnAboutApp" text="About App" class="settings-help-card" />
+                </ui:VisualElement>
+
+                <!-- <ui:Button name="BtnSignOut" text="Sign Out" class="settings-signout" /> -->
+            </ui:VisualElement>
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

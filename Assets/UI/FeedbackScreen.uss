@@ -1,0 +1,222 @@
+.feedback-screen {
+    flex-grow: 1;
+    background-color: rgb(244, 246, 252);
+}
+
+.feedback-top-bar {
+    height: 76px;
+    flex-shrink: 0;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(249, 250, 253);
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(230, 235, 244);
+}
+
+.feedback-back {
+    width: 34px;
+    height: 34px;
+    background-color: transparent;
+    border-width: 0;
+    color: rgb(7, 25, 56);
+    font-size: 22px;
+    -unity-font-style: bold;
+    margin-right: 8px;
+}
+
+.feedback-top-title {
+    color: rgb(7, 25, 56);
+    font-size: 16px;
+    -unity-font-style: bold;
+}
+
+.feedback-scroll {
+    flex-grow: 1;
+    width: 100%;
+}
+
+.feedback-content {
+    flex-grow: 1;
+    width: 100%;
+    padding: 24px;
+}
+
+.feedback-title {
+    color: rgb(6, 28, 67);
+    font-size: 28px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    margin-bottom: 8px;
+}
+
+.feedback-subtitle {
+    color: rgb(39, 52, 75);
+    font-size: 14px;
+    white-space: normal;
+    -unity-text-align: middle-center;
+    margin-bottom: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.feedback-section-label {
+    color: rgb(48, 58, 78);
+    font-size: 12px;
+    letter-spacing: 2px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    margin-bottom: 12px;
+}
+
+.feedback-stars {
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.feedback-star {
+    width: 42px;
+    height: 42px;
+    margin-right: 8px;
+    border-width: 0;
+    border-radius: 21px;
+    background-color: transparent;
+    color: rgb(180, 187, 203);
+    font-size: 28px;
+    -unity-font-style: bold;
+}
+
+.feedback-star-on {
+    color: rgb(20, 103, 223);
+}
+
+.feedback-question {
+    color: rgb(6, 28, 67);
+    font-size: 18px;
+    -unity-font-style: bold;
+    margin-bottom: 12px;
+}
+
+.feedback-chip-wrap {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 14px;
+}
+
+.feedback-chip {
+    height: 44px;
+    border-width: 0;
+    border-radius: 22px;
+    background-color: rgb(210, 220, 238);
+    color: rgb(37, 49, 70);
+    font-size: 14px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.feedback-chip-active {
+    background-color: rgb(20, 111, 226);
+    color: white;
+}
+
+.feedback-context-card {
+    width: 100%;
+    border-radius: 16px;
+    background-color: rgb(206, 218, 240);
+    padding: 16px;
+    margin-bottom: 14px;
+}
+
+.feedback-context-label {
+    color: rgb(48, 58, 78);
+    font-size: 12px;
+    letter-spacing: 2px;
+    -unity-font-style: bold;
+    margin-bottom: 10px;
+}
+
+.feedback-context-title {
+    color: rgb(8, 25, 57);
+    font-size: 18px;
+    -unity-font-style: bold;
+    margin-bottom: 10px;
+}
+
+.feedback-context-row {
+    flex-direction: row;
+    align-items: center;
+}
+
+.feedback-pin-icon {
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    background-color: rgb(20, 103, 223);
+    margin-right: 8px;
+}
+
+.feedback-context-meta {
+    color: rgb(20, 103, 223);
+    font-size: 12px;
+    -unity-font-style: bold;
+}
+
+.feedback-image-placeholder {
+    width: 100%;
+    height: 138px;
+    border-radius: 16px;
+    background-color: rgb(83, 106, 138);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.feedback-image-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 8px;
+    background-color: rgba(246, 250, 255, 0.85);
+}
+
+.feedback-comments-label {
+    -unity-text-align: upper-left;
+}
+
+.feedback-textarea {
+    width: 100%;
+    min-height: 170px;
+    border-radius: 14px;
+    border-width: 0;
+    background-color: rgb(226, 232, 245);
+    color: rgb(39, 52, 75);
+    font-size: 14px;
+    padding: 12px;
+    margin-bottom: 16px;
+}
+
+.feedback-submit {
+    width: 100%;
+    height: 64px;
+    border-radius: 32px;
+    border-width: 0;
+    background-color: rgb(20, 111, 226);
+    color: white;
+    font-size: 18px;
+    -unity-font-style: bold;
+    margin-bottom: 10px;
+}
+
+.feedback-footnote {
+    width: 100%;
+    color: rgb(100, 109, 124);
+    font-size: 12px;
+    white-space: normal;
+    -unity-text-align: middle-center;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 8px;
+}

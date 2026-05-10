@@ -1,0 +1,35 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <ui:Style src="GlobalStyle.uss" />
+    
+    <ui:VisualElement class="main-layout">
+        
+        <!-- TOP: This is the dynamic area where UIManager injects screens -->
+        <ui:VisualElement name="ContentContainer" class="content-container" />
+        
+        <!-- BOTTOM: The persistent navigation bar -->
+        <ui:VisualElement name="BottomNavBar" class="bottom-nav-bar">
+            
+            <ui:Button name="NavHome" class="nav-item nav-item-active">
+                <ui:VisualElement class="nav-icon nav-icon-home" />
+                <ui:Label text="HOME" class="nav-text" />
+            </ui:Button>
+            
+            <ui:Button name="NavExplore" class="nav-item">
+                <ui:VisualElement class="nav-icon nav-icon-explore" />
+                <ui:Label text="EXPLORE" class="nav-text" />
+            </ui:Button>
+            
+            <ui:Button name="NavSaved" class="nav-item">
+                <ui:VisualElement class="nav-icon nav-icon-saved" />
+                <ui:Label text="SAVED" class="nav-text" />
+            </ui:Button>
+            
+            <ui:Button name="NavSettings" class="nav-item">
+                <ui:VisualElement class="nav-icon nav-icon-settings" />
+                <ui:Label text="SETTINGS" class="nav-text" />
+            </ui:Button>
+
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+</ui:UXML>

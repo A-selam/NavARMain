@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <ui:Style src="DestinationScreen.uss" />
+
+    <ui:VisualElement name="DestinationItemContainer" class="destination-item">
+        
+        <ui:VisualElement class="destination-icon-box">
+            <ui:VisualElement class="destination-icon-glyph" />
+        </ui:VisualElement>
+
+        <ui:VisualElement class="destination-info">
+            <ui:Label name="DestinationNameLabel" text="Room Name" class="destination-name" />
+            <ui:Label name="DestinationDescLabel" text="Floor info" class="destination-desc" />
+        </ui:VisualElement>
+
+        <ui:VisualElement class="history-icon" />
+
+    </ui:VisualElement>
+</ui:UXML>
